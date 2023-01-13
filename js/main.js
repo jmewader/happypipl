@@ -3,8 +3,8 @@ $(".slider").slick({
     dots: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: "<img src='../img/icons/arrow.svg' class='prev' alt='1'>",
-    nextArrow: "<img src='../img/icons/arrow.svg' class='next' alt='2'>",
+    prevArrow: "<img src='./img/icons/arrow.svg' class='prev' alt='1'>",
+    nextArrow: "<img src='./img/icons/arrow.svg' class='next' alt='2'>",
     responsive: [
       {
         breakpoint: 1000,
