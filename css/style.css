@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "FuturaPT";
+  font-style: bold;
+  font-weight: 700;
+  src: url("/fonts/FuturaPT-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-style: bold;
+  font-weight: 500;
+  src: url("/fonts/FuturaPT-Demi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/FuturaPT-Medium.woff") format("woff");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: #000;
+  font-family: "FuturaPT", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  max-width: 255px;
+  background-color: #e8d8e6;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 40%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 30px 20px;
+  overflow: auto;
+  z-index: 2000;
+}
+
+main {
+  width: 100%;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.link {
+  color: #ff8562;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0 0 38px;
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 16px 0px;
+  position: relative;
+  z-index: 100;
+}
+
+.nav__item {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.wrap-block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 255px;
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+}
+
+.menu-wrap {
+  background-color: rgba(170, 99, 171, 0.5);
+  height: 75px;
+  width: 100%;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bg-image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-image img {
+  filter: brightness(80%);
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+/*OFFER*/
+
+.offer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 75px);
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 60px 0 120px;
+}
+
+.cards__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(31, 28, 31);
+  font-weight: 700;
+  font-size: 42px;
+  margin: 0 0 90px;
+}
+
+.cards__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 110px 0px;
+}
+
+.cards__list-item-img {
+}
+
+.cards__list-item-text {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.search-block {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 0 60px;
+}
+
+.search-block__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  width: 100%;
+  position: absolute;
+  width: 25px;
+  left: 20px;
+}
+
+.purple-input {
+  color: #000000;
+  border: 1px solid #b518ba;
+  background-color: #fcf9f9;
+  min-height: 60px;
+  width: 375px;
+  padding: 0px 20px 0px 60px;
+  outline: none;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #aa63ab;
+  font-weight: 600;
+  min-height: 60px;
+  min-width: 164px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  background-color: #fff;
+}
+
+.info__content {
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  gap: 20px;
+}
+
+.info__content p {
+  font-size: 16px;
+}
