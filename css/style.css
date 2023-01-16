@@ -233,7 +233,7 @@ ol {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 110px 0px;
+  gap: 110px 20px;
 }
 
 .cards__list-item {
@@ -241,6 +241,7 @@ ol {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .cards__list-item-img {
