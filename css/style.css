@@ -16,7 +16,7 @@
   font-family: "FuturaPT";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/FuturaPT-Medium.woff") format("woff");
+  src: url("/fonts/FuturaPT-Book.woff") format("woff");
 }
 
 html,
@@ -72,6 +72,7 @@ ol {
   display: flex;
   width: 100%;
   justify-content: center;
+  text-align: center;
   color: #fff;
   font-size: 72px;
   font-weight: 700;
@@ -82,6 +83,7 @@ ol {
   display: flex;
   width: 100%;
   justify-content: center;
+  text-align: center;
   color: #fff;
   font-size: 22px;
   font-weight: 400;
@@ -171,6 +173,39 @@ ol {
   height: calc(100vh - 75px);
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.wts-btn {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  bottom: 40px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+}
+
+.wth-btn:hover {
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
+}
+
+.wts-btn img {
+  position: absolute;
+  border-radius: 100%;
 }
 
 .cards {
@@ -185,6 +220,7 @@ ol {
   width: 100%;
   display: flex;
   justify-content: center;
+  text-align: center;
   color: rgb(31, 28, 31);
   font-weight: 700;
   font-size: 42px;
@@ -200,7 +236,16 @@ ol {
   gap: 110px 0px;
 }
 
+.cards__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .cards__list-item-img {
+  display: flex;
+  margin: 0 0 20px;
 }
 
 .cards__list-item-text {
@@ -262,6 +307,29 @@ ol {
 }
 
 .info__content {
+  width: 100%;
+}
+
+.info__content h3 {
+  font-size: 24px;
+  margin: 0 0 30px;
+}
+
+.info__content h4 {
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 0 0 30px;
+}
+
+.info__content p,
+.info__content ol {
+  margin: 0 0 30px;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.info__content p:last-child {
+  margin: 0 0 0px;
 }
 
 footer {
@@ -288,6 +356,7 @@ footer {
   gap: 20px;
 }
 
-.info__content p {
-  font-size: 16px;
+
+.header-mobile {
+  display: none;
 }
