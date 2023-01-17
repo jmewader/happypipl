@@ -357,7 +357,29 @@ footer {
   gap: 20px;
 }
 
-
 .header-mobile {
   display: none;
+}
+
+.mobile-menu {
+  display: none;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 73px;
+  bottom: 0;
+  width: 100%;
+  z-index: 2000;
+  background-color: #fff;
+  border-top: 1px solid #e2e2e2;
+}
+
+.mobile-menu__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
 }

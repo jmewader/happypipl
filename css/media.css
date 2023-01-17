@@ -18,6 +18,10 @@
     display: flex;
   }
 
+  .mobile-menu {
+    display: flex;
+  }
+
   nav {
     padding: 0;
     max-width: 100%;
