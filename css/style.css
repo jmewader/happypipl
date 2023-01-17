@@ -381,5 +381,12 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 50px;
+  gap: 55px;
+}
+
+.mobile-menu__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 13px;
 }

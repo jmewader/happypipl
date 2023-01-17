@@ -68,4 +68,8 @@
   .slider-block__title {
     font-size: 30px;
   }
+
+  .mobile-menu__list {
+    gap: 25px;
+  }
 }
