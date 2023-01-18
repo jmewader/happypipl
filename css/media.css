@@ -12,11 +12,19 @@
   }
 
   .wrap-block {
-    padding: 0;
+    padding: 56px 0 0;
   }
 
   .header-mobile {
     display: flex;
+  }
+
+  .page-title {
+    font-size: 60px;
+  }
+
+  .feedback__title {
+    font-size: 60px;
   }
 
   .mobile-menu {
@@ -39,6 +47,23 @@
   .cards__list-item-text {
     font-weight: 400;
     font-size: 24px;
+  }
+
+  .page-title {
+    font-size: 30px;
+  }
+
+  .feedback__form {
+    flex-direction: column;
+    margin: 32px 0 0;
+  }
+
+  .feedback__title {
+    font-size: 30px;
+  }
+
+  .feedback__desc {
+    font-size: 18px;
   }
 }
 
