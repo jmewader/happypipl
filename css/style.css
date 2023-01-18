@@ -125,6 +125,27 @@ ol {
   font-size: 15px;
 }
 
+.nav__input {
+  background-color: #e8d8e6;
+  font-size: 12px;
+  height: 30px;
+  border: 1px solid #00000033;
+  padding: 0 25px 0 30px;
+  outline: none;
+}
+
+.nav__input_wrap {
+  position: relative;
+  background-color: #e8d8e6;
+}
+
+.nav__input-icon {
+  position: absolute;
+  width: 15px;
+  top: 8px;
+  left: 10px;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
