@@ -530,3 +530,28 @@ footer {
   color: #000000;
   background-color: #ffffff;
 }
+
+/*ANSWERS*/
+
+.answers {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.answers__title {
+  font-size: 34px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+.answers__text {
+  width: 100%;
+  margin: 0;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: center;
+}
