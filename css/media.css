@@ -1,5 +1,6 @@
 @media (max-width: 1500px) {
-  .cards__list {
+  .cards__list,
+  .price-cards__list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -30,7 +31,8 @@
 }
 
 @media (max-width: 900px) {
-  .cards__list {
+  .cards__list,
+  .price-cards__list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -53,7 +55,8 @@
     font-size: 30px;
   }
 
-  .cards__list {
+  .cards__list,
+  .price-cards__list {
     grid-template-columns: 1fr;
   }
 
