@@ -1,5 +1,11 @@
 .offcanvas-end {
-    left: 0;
-    background-color: #e8d8e6;
-    width: 300px;
+  left: 0;
+  background-color: #e8d8e6;
+  width: 300px;
+}
+
+.offcanvas-header {
+  position: absolute;
+  right: 0;
+  z-index: 3000;
 }
