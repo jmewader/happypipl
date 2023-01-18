@@ -329,6 +329,7 @@ ol {
 }
 
 .price-cards__item {
+  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -575,4 +576,12 @@ footer {
   font-weight: 400;
   font-size: 34px;
   text-align: center;
+}
+
+.sorting-block {
+  width: 100%;
+  margin: 0 0 45px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
 }
