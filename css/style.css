@@ -625,7 +625,7 @@ footer {
 .detail {
   width: 100%;
   display: flex;
-  padding: 90px 0 60px;
+  padding: 60px 0 60px;
 }
 
 .detail__content {
@@ -633,6 +633,13 @@ footer {
   width: 100%;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
+}
+
+.detail__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
 }
 
 .detail__img {
@@ -643,6 +650,8 @@ footer {
 .detail__img img {
   width: 100%;
   position: absolute;
+  height: 100%;
+  object-fit: cover;
 }
 
 .detail__btn {
@@ -654,4 +663,30 @@ footer {
   border: none;
   font-size: 14px;
   font-weight: 700;
+}
+
+.detail__title {
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.detail__price {
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail__info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.detail__info span {
+  font-weight: 600;
 }

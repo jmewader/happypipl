@@ -38,6 +38,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 900px) {
   .cards__list,
   .price-cards__list {
