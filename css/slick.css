@@ -21,6 +21,10 @@
   margin: 0 30px;
 }
 
+.slider__item {
+  text-align: center;
+}
+
 .slick-track {
   display: flex;
 }
@@ -38,15 +42,17 @@
 }
 
 .slider .slick-arrow.prev {
-  left: 0;
-  width: 40px;
-  height: 40px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
   transform: rotateY(180deg);
 }
 .slider .slick-arrow.next {
-  right: 0;
-  width: 40px;
-  height: 40px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .slider__item-img {
