@@ -337,7 +337,6 @@ ol {
 }
 
 .price-cards__item {
-  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
