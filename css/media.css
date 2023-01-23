@@ -106,4 +106,13 @@
   .mobile-menu__list {
     gap: 25px;
   }
+
+  .contacts {
+    padding: 105px 0px;
+  }
+
+  .contacts__title,
+  .info-block__title {
+    font-size: 30px;
+  }
 }
