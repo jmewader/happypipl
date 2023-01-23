@@ -560,9 +560,9 @@ footer {
   background-color: #ffffff;
 }
 
-/*ANSWERS*/
+/*REVIEWS*/
 
-.answers {
+.reviews {
   background-color: #fff;
   width: 100%;
   display: flex;
@@ -570,14 +570,15 @@ footer {
   justify-content: center;
 }
 
-.answers__title {
+.reviews__title {
   font-size: 34px;
   line-height: 1.5;
   font-weight: 400;
   text-align: center;
+  margin: 0 0 90px;
 }
 
-.answers__text {
+.reviews__text {
   width: 100%;
   margin: 0;
   font-weight: 400;
