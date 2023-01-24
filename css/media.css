@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 1200px) {
-  .header-desktop,
+  .desktop-menu,
   .menu-wrap {
     display: none;
   }
 
   .wrap-block {
-    padding: 56px 0 0;
+    padding: 56px 0 70px;
   }
 
   .header-mobile {
@@ -35,6 +35,14 @@
     padding: 0;
     max-width: 100%;
     height: auto;
+  }
+
+  .nav__item {
+    transition: none;
+  }
+
+  .nav__item a {
+    transition: none;
   }
 }
 
