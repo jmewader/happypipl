@@ -806,3 +806,12 @@ footer {
 .detail__info span {
   font-weight: 600;
 }
+
+
+.content {
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
