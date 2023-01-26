@@ -651,6 +651,23 @@ footer {
   justify-content: flex-end;
 }
 
+.sorting-block__input {
+  font-size: 12px;
+  padding: 0 30px 0 10px;
+  border: 1px #ddd solid;
+  background: #f8f8f8;
+  outline: none;
+}
+
+.sorting-block__select {
+  font-size: 12px;
+  border: 1px #ddd solid;
+  background: #f8f8f8;
+  color: #000;
+  min-width: 200px;
+  outline: none;
+}
+
 .info-block {
   display: flex;
   justify-content: center;
@@ -806,7 +823,6 @@ footer {
 .detail__info span {
   font-weight: 600;
 }
-
 
 .content {
   margin: auto;

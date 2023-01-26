@@ -128,4 +128,8 @@
   .info-block__title {
     font-size: 30px;
   }
+
+  .sorting-block {
+    flex-direction: column;
+  }
 }
