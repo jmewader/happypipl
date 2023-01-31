@@ -133,3 +133,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 400px) {
+  .slider__item-img {
+    height: 335px;
+  }
+}

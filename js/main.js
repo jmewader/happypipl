@@ -16,7 +16,7 @@ $(".slider").slick({
       },
     },
     {
-      breakpoint: 700,
+      breakpoint: 750,
       settings: {
         slidesToShow: 1,
       },
